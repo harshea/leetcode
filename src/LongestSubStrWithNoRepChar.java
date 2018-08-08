@@ -6,7 +6,8 @@ import java.util.Set;
  */
 
 /**
- * @author ashuu Given a string, find the length of the longest substring
+ * @author ashuu 
+ * Given a string, find the length of the longest substring
  *         without repeating characters.
  * 
  *         Examples:
