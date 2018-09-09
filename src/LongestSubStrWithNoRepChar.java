@@ -30,12 +30,12 @@ public class LongestSubStrWithNoRepChar {
 	 * 
 	 * In the naive approaches, we repeatedly check a substring to see if it has
 	 * duplicate character. But it is unnecessary. If a substring s_{ij}s ​ij ​​
-	 * from index ii to j - 1j−1 is already checked to have no duplicate characters.
-	 * We only need to check if s[j]s[j] is already in the substring s_{ij}s ​ij ​​
+	 * from index i to j - 1 is already checked to have no duplicate characters.
+	 * We only need to check if s[j]is already in the substring s_{ij} ​​
 	 * .
 	 * 
 	 * To check if a character is already in the substring, we can scan the
-	 * substring, which leads to an O(n^2)O(n ​2 ​​ ) algorithm. But we can do
+	 * substring, which leads to an O(n^2) algorithm. But we can do
 	 * better.
 	 * 
 	 * By using HashSet as a sliding window, checking if a character in the current

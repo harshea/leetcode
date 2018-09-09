@@ -10,7 +10,7 @@
  * If there is an odd number of results, the median is the middle number.
  * If there is an even number of results, the median will be the mean of the two central numbers.
  */
-public class MedianOfTwoSortedArrays {
+public class Prob_4_MedianOfTwoSortedArrays {
 
 	/**
 	 * @param args

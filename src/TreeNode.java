@@ -1,3 +1,5 @@
+
+
 /**
  * 
  */
@@ -35,4 +37,16 @@ public class TreeNode {
 			return node;
 		}
 	
+		public  static void print(TreeNode n) {
+	        print("", n, false);
+	    }
+
+	    public  static void print(String prefix, TreeNode n, boolean isLeft) {
+	        if (n != null) {
+	            System.out.println (prefix + (isLeft ? "|-- " : "\\-- ") + n.data);
+	            print(prefix + (isLeft ? "|   " : "    "), n.left, true);
+	            print(prefix + (isLeft ? "|   " : "    "), n.right, false);
+	        }
+	    }
+		
 }
